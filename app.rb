@@ -14,4 +14,8 @@ get '/say/:number/:phrase' do
   erb :multiply_string
 end
 
+get '/say/:word1/:word2/:word3/:word4/:word5' do
+  erb :all_five_words
+end
+
 end
