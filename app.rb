@@ -18,4 +18,8 @@ get '/say/:word1/:word2/:word3/:word4/:word5' do
   erb :all_five_words
 end
 
+get '/:operation/:number1/:number2' do
+  erb :operation
+end
+
 end
